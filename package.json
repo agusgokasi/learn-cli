@@ -1,0 +1,24 @@
+{
+  "name": "mytools",
+  "version": "1.0.0",
+  "description": "convert file log to plain or json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusgokasi/learn-cli.git"
+  },
+  "keywords": [
+    "-h",
+    "-t",
+    "-o"
+  ],
+  "author": "agusgokasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusgokasi/learn-cli/issues"
+  },
+  "homepage": "https://github.com/agusgokasi/learn-cli#readme"
+}
