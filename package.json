@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "convert file log to plain or json",
   "main": "index.js",
+  "bin": {
+    "mytools": "bin/mytools"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +22,21 @@
     "-o"
   ],
   "author": "agusgokasi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/agusgokasi/learn-cli/issues"
   },
-  "homepage": "https://github.com/agusgokasi/learn-cli#readme"
+  "homepage": "https://github.com/agusgokasi/learn-cli#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "figlet": "^1.5.2",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "util": "^0.12.4"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
 }
